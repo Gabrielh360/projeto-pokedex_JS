@@ -17,3 +17,7 @@ Ele também faz uns projetos incriveis, entâo dá uma olhada lá.
 ### O GitHub da DIO:https://github.com/digitalinnovationone
 A platafoma na qual eu estudo, se você olhar o GitHub deles, você vai encontrar muitos projetos legais.
 
+----------
+
+## Teste o Meu Projeto:
+### Meu Projeto: https://gabrielh360.github.io/projeto-pokedex_JS/
