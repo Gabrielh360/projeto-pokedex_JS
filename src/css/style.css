@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxanium', cursive;
+}
+
+body {
+  text-align: center;
+  min-height: 100vh;
+  background: rgb(211, 10, 64);
+}
+
+main {
+  display: inline-block;
+  margin-top: 2%;
+  padding: 15px;
+  position: relative;
+}
+
+.background__pokeddex {
+  z-index: -4;
+  position: absolute;
+  background-color: rgb(2, 221, 253);
+  padding-top: 10px;
+  padding-right: 131px;
+  padding-bottom: 169px;
+  padding-left: 124px;
+  margin-top: -103.9%;
+  margin-left: 14.7%;
+  margin-right: 100px;
+  margin-bottom: 80px;
+  display: grid;
+}
+
+.brilho {
+  z-index: -1;
+  position: absolute;
+  margin-left: -93%;
+  opacity: 50%;
+}
+
+.pokede {
+  width: 100;
+  max-width: 425px;
+}
+
+.logo-pokedex {
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+.logo-pokedex {
+  margin-bottom: 40px;
+}
+
+.github i {
+  position: absolute;
+  margin: 0;
+  right: 50%;
+  bottom: 82%;
+  background: #454545;
+  border: 1px solid black;
+  border-radius: 100%;
+  color: red;
+  font-size: 41px;
+  padding: 1px;
+  list-style: none;
+  z-index: 1;
+}
+
+.linkedin i {
+  position: absolute;
+  margin: 0;
+  right: 46%;
+  bottom: 82%;
+  background: #454545;
+  border-radius: 100%;
+  color: red;
+  border: 1px solid black;
+  font-size: 20px;
+  padding: 10px;
+  list-style: none;
+  z-index: 1;
+}
+
+
+.pokemom__image {
+  z-index: -2; 
+  position: absolute;
+  bottom: 55%;
+  left: 50%;  
+  transform: translate(-63%, 20%);
+  height: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+.pokemon_info {
+  position: absolute;
+  right: 20%;
+}
+
+.pokemon__data {
+  position: absolute;
+  font-weight: 600;
+  color: grey;
+  top: 52.5%;
+  right: 27%;
+  font-size: clamp(8px, 5vw, 25px);
+}
+
+.pokemon__name {
+  color: #3A444D;
+  text-transform: capitalize;
+}
+
+.pokemom__number {
+  color: grey;
+}
+
+.form {
+  position: absolute;
+  width: 65%;
+  top: 65%;
+  left: 13.5%;
+}
+
+.input__search {
+  width: 100%;
+  padding: 4%;
+  outline: none;
+  border: 2px solid #333;
+  border-radius: 5px;
+  font-weight: 600;
+  background-color: #BAB8B5;
+  font-size: clamp(8px, 5vw, 1rem);
+  box-shadow: -3px 4px 0 #888, -5px 7px 0 #333;
+}
+  
+.buttons {
+  position: absolute;
+  bottom: 13%;
+  left: 69.9%;
+  width: 55%;
+  transform: translate(-57%, 0);
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  gap: 8%;
+}
+  
+.button {
+  width: 20%;
+  padding: 4%;
+  border: 2px solid #590000;
+  border-radius: 5px;
+  font-size: clamp(8px, 5vw, 1rem);
+  font-weight: 600;
+  background-color: #D80000;
+}
+
+.btn-prev:active {
+  box-shadow: inset 4px -4px 0 #BF0000;
+  font-size: 0.9rem;
+}
+
+.btn-next:active {
+  box-shadow: inset -4px 4px 0 #BF0000;
+  font-size: 0.9rem;
+}
+
+.btn-up {
+position: absolute;
+transform: rotate(90deg);
+bottom: 17.3%;
+left: 59.6%;
+width: 13%;
+height: 7%;
+font-weight: 600;
+padding: 2%;
+display: flex; 
+justify-content: center;
+align-items: center;
+border: 2px solid #590000;
+border-radius: 5px;
+font-size: clamp(8px, 5vw, 1rem);
+}
+
+
+.btn-dawn {
+  position: absolute;
+  transform: rotate(-90deg);
+  bottom: 8.7%;
+  left: 59.6%;
+  width: 13%;
+  height: 7%;
+
+  padding: 2%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #590000;
+  border-radius: 5px;
+  font-size: clamp(8px, 5vw, 1rem);
+  }
+
+.btn-up:active {
+  box-shadow: inset 4px -4px 0 #BF0000;
+  font-size: 0.9rem;
+}
+
+.btn-dawn:active {
+  box-shadow: inset 4px -4px 0 #BF0000;
+  font-size: 0.9rem;
+}
+
+#myBtn {
+  position: absolute;
+  width: 50%;
+  height: 5px;
+  padding-top: 00px;
+  padding-right: 130px;
+  padding-bottom: 169px;
+  padding-left: 122px;
+    
+  margin-top: 169.5px;
+  margin-left: -147.2px;
+  margin-right: 100px;
+  margin-bottom: 80px;
+
+  background-color: transparent;
+  border: transparent;
+  border-radius: 10px;
+}
+
+#confirmBtn {
+  position: absolute;
+  width: 15%;
+  height: 10%;
+  font-weight: 600;
+  background-color: #D80000;
+  border-radius: 100%;
+  bottom: 13%;
+  left: 10%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  transform: translate(50%, 25%);
+  border: 2px solid #590000;
+  box-shadow: -3px 4px 0 #D80000, -5px 7px 0 #BF0000
+}
+
+#confirmBtn:active {
+  box-shadow: inset -4px 4px 0 #BF0000;
+  font-size: 0.9rem;
+}
+
+#btnEstatísticas {
+  position: absolute;
+  bottom: 67%;
+  left: 80%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+#btnEstatísticas:active{
+  text-decoration: underline;
+}

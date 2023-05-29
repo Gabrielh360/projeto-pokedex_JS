@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Box Icons Link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+    <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    
+    <!--- CSS --->
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <!--- JS --->
+    <script defer src="./src/js/script.js"></script>
+
+    <title>Pokedex</title>
+</head>
+<body>
+
+    <div>
+      <img class="logo-pokedex" src="./src/components/images/logo-pokedex.png" alt="" srcset="">
+    </div>
+
+    <div class="poke_links">
+      <a href="https://github.com/Gabrielh360" target="_blank" class="github"><i class='bx bxl-github'></i></a>
+      <a href="https://www.linkedin.com/in/gabriel-henrique-1a5193213/" target="_blank" class="linkedin"><i class='bx bxl-linkedin' ></i></a>
+  </div>
+
+    <main>
+    <img src="#" alt="Imagem de um pokemom" class="pokemom__image">
+
+    <h1 class="pokemon__data">
+     <span class="pokemom__number"></span> -
+     <span class="pokemon__name"></span>
+    </h1>
+
+      <button id="confirmBtn">A</button>
+
+    <form class="form">
+      <input 
+      type="search"
+      class="input__search"
+      placeholder="Nome ou Numero do Pokemon"
+      required
+      >
+    </form>
+
+    <div>
+      <button class="button btn-up">◀</button>
+      <button class="button btn-dawn">◀</button>
+    </div>
+
+    <div class="buttons">
+      <button class="button btn-prev">◀</button>
+      <button class="button btn-next">▶</button>
+    </div>
+
+    <img src="./src/components/images/Pokedex.png" alt="Pokedex" class="pokedex">
+    <img src="./src/components/images/luz_na_tela.png" class="brilho">
+
+    <div class="background__pokeddex"></div>
+  </main>
+</body>
+</html>
